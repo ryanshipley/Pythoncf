@@ -18,3 +18,14 @@ elif input == 'Y':
 
 else: 
     print(f'the letter {input} is a consonant, not a vowel')
+
+# Task 2 Length of Phrase
+# Requirements:
+# 1. Prompts the user to enter a word or phrase.
+# 2. Print the message displaying how long the message is.
+# 3. Return to the first step.
+stop = 'quit'
+message = ''
+while message != 'quit':
+    message = input('Enter a message: ')
+    print(f'The messaage has a length of {len(message)}. ')
